@@ -1349,15 +1349,18 @@ class M {
 - template-head:
 	- template < template-parameter-list > requires-clause(opt)
 
-
-テンプレート宣言（template-declaration）は名前空間スコープ・クラススコープにおける宣言として現れることができる。  
-その宣言（template-headに続くdeclaration）は、エクスポート宣言（export-declaration）であってはならない。
-
-（`export template<typename T> ...`というのができないと言っているのではなく、`template<typename T> export ...`という宣言ができないと言っている）
-
 ## 13.1 Preamble [temp.pre]
 
 関数テンプレート、クラステンプレートのメンバ関数、変数テンプレート、クラステンプレートの静的メンバ変数、の定義は、対応する特殊化がある翻訳単位で明示的インスタンス化されていない限り、暗黙的にインスタンス化されている全ての定義領域（*definition domain*）の終端から到達可能でなければならない。この診断は不要。
+
+#### 3
+
+[Note: テンプレート宣言（template-declaration）は名前空間スコープ・クラススコープにおける宣言として現れることができる。]
+
+
+その宣言（template-headに続くdeclaration）は、エクスポート宣言（export-declaration）であってはならない。
+
+（`export template<typename T> ...`というのができないと言っているのではなく、`template<typename T> export ...`という宣言ができないと言っている）
 
 ### 13.8.3.4 Value-dependent expressions [temp.dep.constexpr]
 
