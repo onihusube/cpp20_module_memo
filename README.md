@@ -42,6 +42,8 @@
 - [P1857R3 Modules Dependency Discovery](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2020/p1857r3.html)
 - [P2109R0: US084: Disallow "export import foo" outside of module interface](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2020/p2109r0.html)
 - [P1815R2: Translation-unit-local entities](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2020/p1815r2.html)
+- [P2788R0 Linkage for modular constants](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2023/p2788r0.html)
+    - C++20へのDR
 
 ### 未追記
 
