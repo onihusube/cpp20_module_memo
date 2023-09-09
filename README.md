@@ -52,3 +52,6 @@
       - `new`とか`<=>`とか対応するヘッダのインクルードが必要なものについて、`import`を明示的に許可する。
 - [P2115R0: US069: Merging of multiple definitions for unnamed unscoped enumerations](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2020/p2115r0.html)
 - [P1787R6 Declarations and where to find them](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2020/p1787r6.html)
+- [P2922R0 Core Language Working Group "ready" Issues for the June, 2023 meeting](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2023/p2922r0.html)
+    - [2732. Can importable headers react to preprocessor state from point of import?](https://cplusplus.github.io/CWG/issues/2732.html)
+      - どうやらC++20へのDR    
